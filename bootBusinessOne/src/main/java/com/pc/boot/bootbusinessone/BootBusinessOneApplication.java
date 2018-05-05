@@ -1,0 +1,12 @@
+package com.pc.boot.bootbusinessone;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BootBusinessOneApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BootBusinessOneApplication.class, args);
+	}
+}
