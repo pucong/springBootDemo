@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.pc.boot</groupId>
-	<artifactId>boot-demo-parent</artifactId>
+	<artifactId>boot-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>spring-boot-model</name>
 	<description>Demo project for Spring Boot</description>
@@ -19,15 +19,20 @@
 	</parent>
 
 	<properties>
+		<mybatis-spring-boot>1.3.0</mybatis-spring-boot>
+		<pagehelper-spring-boot>4.1.1</pagehelper-spring-boot>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<modules>
-		<module>bootDemoCore</module>
+		<module>bootCore</module>
 		<module>bootBusinessOne</module>
+		<module>bootSecurity</module>
+		<module>bootBase</module>
 	</modules>
+
 
 	<developers>
 		<developer>
